@@ -1,0 +1,7 @@
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+auto: true
+exclude: ['readme.markdown', 'LICENSE', '.gitignore', '.git', '_jekyll_s3.yml']
+rdiscount:
+  extensions: [smart]
