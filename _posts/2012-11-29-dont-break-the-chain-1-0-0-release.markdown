@@ -5,7 +5,7 @@ category: posts
 ---
 My first Windows 8 Store App is out!
 
-> *Don’t Break The Chain* is a personal productivity tool that helps you work toward your goals by tracking your streaks of activity toward your goals. With it, you can mark each day that you accomplish a task toward your goal (like reading more or going to the gym) and as you do so, you build up streaks and activity.
+> *Don't Break The Chain* is a personal productivity tool that helps you work toward your goals by tracking your streaks of activity toward your goals. With it, you can mark each day that you accomplish a task toward your goal (like reading more or going to the gym) and as you do so, you build up streaks and activity.
 
 [View In Store][1]
 
