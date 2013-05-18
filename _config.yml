@@ -1,7 +1,6 @@
 markdown: rdiscount
 pygments: true
 permalink: /posts/:title
-auto: true
 exclude: ['readme.markdown', 'LICENSE', '.gitignore', '.git', 's3.sh']
 rdiscount:
   extensions: [smart]
