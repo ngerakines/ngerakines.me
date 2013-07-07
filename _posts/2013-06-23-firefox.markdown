@@ -1,0 +1,26 @@
+---
+layout: post
+title: Firefox
+category: posts
+---
+
+When Google Chrome was released, it had some really cool features and abilities. Over the years support for hangouts, native extensions, Google made extensions for Google Apps, the javascript engine used and the improvements made to it to support the chromebook have made it a truly awesome browser.
+
+In the meantime, the folks at Mozilla have really stepped up to make Firefox equally great. Hardware acelerated graphics, many improvements in memory consumption and management, enthusiastic support for privacy, safety and security and a huge base of extensions has made me want to go back.
+
+* Switching from Chrome to Firefox has been pretty smooth.
+
+* I made the right choice in not storing form information in the browser. A few years ago I started using [1Password](https://agilebits.com/) on Windows and OSX and in Linux I use [password-store](http://zx2c4.com/projects/password-store/). This made things a lot easier.
+
+* I was using the recent Google Hangouts chrome extension, but moved back to Adium and Pidgen. I really like [OTR](https://en.wikipedia.org/wiki/Off-the-Record_Messaging) support and feel that it was a good move.
+
+* I did keep some bookmarks in Chrome, but most of my collection is on [pinboard.in](https://pinboard.in/u:ngerakines).
+
+I'm also using a handful of addons:
+
+* [HTTPS Everywhere](https://www.eff.org/https-everywhere)
+* [Terms of Service; Didn't Read](https://tosdr.org/)
+* [Adblock Plus](https://adblockplus.org/)
+* [Easy Screen Shot](https://addons.mozilla.org/en-US/firefox/addon/easyscreenshot/)
+* [Duck Duck Go Plus](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/)
+
