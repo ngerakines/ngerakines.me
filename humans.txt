@@ -1,0 +1,10 @@
+/* TEAM */
+	Author: Nick Gerakines
+	Contact: nick@gerakines.net
+	Twitter: @ngerakines
+	Location: Dayton, Ohio, USA
+
+/* SITE */
+	Language: English
+	IDE: Sublime Text, vim
+	Built With: Jekyll, Bootstrap
