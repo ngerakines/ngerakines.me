@@ -1,0 +1,45 @@
+---
+layout: post
+title: How I Work
+category: posts
+---
+
+I love reading the [how-i-work](http://lifehacker.com/how-i-work/) posts on life hacker. They aren't the first to do that sort of series, but I love the mix of writers, industry leaders, software engineers and designers that contribute to it. With that, this is my contribution.
+
+Current gig: Software Engineer<br/>
+Location: Centerville, Ohio, USA<br/>
+Current mobile device: Google Glass, Samsung S4, Nexus 10<br/>
+Current computer: Apple Macbook Pro, System76 Ratel Performance<br/>
+One word that best describes how you work: Furiously<br/>
+
+**What apps/software/tools can't you live without?**
+
+A solid Linux install that keeps itself clean and up to date so that I don't have to deal with that. Currently using Ubuntu but have a long history with Red Hat and Gentoo. I use sublime text whenever I'mn ot using Vim. I've been using Chrome for a few years now, although I'm considering moving back to Firefox with all of the improvements they've made.
+
+For Java development, I really couldn't live without Intellij. I use it for both professional and personal projects and gladly paid for a license to use at home.
+
+To manage the constant flood of information, I use [pinboard](https://pinboard.in/u:ngerakines) and [Digg reader](http://digg.com/reader/). Being a former del.icio.us engineer, I've got well over 5k bookmarks and add new links and notes daily. When Google Reader went away, I hopped between a few different feed readers but settled on the one that Digg created.
+
+When gaming, I either stick with my PS3 or games purchased through Steam. The two games that I've been playing the most recently are [Starbound](http://playstarbound.com/) and [Hearthstone](http://us.battle.net/hearthstone/en/).
+
+**What's your workspace setup like?**
+
+I have a home office and work remotely. I have a sturdy glass desk that has a two monitor arm that I picked up off of Amazon a while back. One monitor runs off my of laptop and the other is for my desktop. I use [Synergy](http://synergy-foss.org/) to share a single keyboard and mouse across the two. My current keyboard is the [Razer BlackWidow Ultimate](http://www.amazon.com/gp/product/B008U5ZNIG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008U5ZNIG&linkCode=as2&tag=socklabs-20) with blue switches and my mouse is a [Logitech M500](http://www.amazon.com/gp/product/B002B3YCQM/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002B3YCQM&linkCode=as2&tag=socklabs-20).
+
+Next to my desk is a large bookshelf that I use for keepsakes, books and misc storage. I've got a bunch of signed games from working at Blizzard and a few from when I was at EA. Most everything else was either made or gifted.
+
+**What do you listen to while you work?**
+
+I'm a big supporter of Pandora and have been for a while. A few years ago I copied all of my music into Amazon Cloudplayer and use the two services regularly. Every now and then I try Spotify, but don't find it compelling. I used to spend a lot of time managing playlists and whatnot, but over the years came to the conclusion that I listen to music to help me think and code (for the most part) so I don't really care what it is.
+
+**What's your best time-saving trick?**
+
+Doing one thing at a time. I put a lot of effort into not multi-tasking. If I need to change or context switch, I'll close everything out so that the next thing has 100% of my attention and focus.
+
+**What's your favorite to-do list manager?**
+
+At work I use Jira. At home, I stick to a todo.txt file.
+
+**Besides your phone and computer, what gadget can't you live without?**
+
+Google Glass, without question. Although I don't use it for taking pictures or recording videos that much, I find the notifications and information really helpful.
