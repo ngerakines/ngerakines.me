@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 48 Hours Playing Sim City
-category: posts
 ---
 
 Sim City was released last week and there was a lot of attention given to some launch issues. I've been itching to play, so Carolyn and I picked up copies on Friday after work. 48 hours later, here I am.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Nudge: Improving Decisions About Health, Wealth, and Happiness"
-category: posts
 ---
 
 Recently I read the book [Nudge: Improving Decisions About Health, Wealth, and Happiness][1] by Richard H. Thaler and Cass R. Sunstein. This book goes about describing paternal libertarianism, the belief that although everyone is free to make their own choices, society is morally obligated to nudge them in the right direction by biasing those choices. I don't remember where I first heard of this book, but I'm glad that I read it.

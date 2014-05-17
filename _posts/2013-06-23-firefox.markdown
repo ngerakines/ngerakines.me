@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Firefox
-category: posts
 ---
 
 When Google Chrome was released, it had some really cool features and abilities. Over the years support for hangouts, native extensions, Google made extensions for Google Apps, the javascript engine used and the improvements made to it to support the chromebook have made it a truly awesome browser.

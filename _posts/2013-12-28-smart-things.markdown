@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Smart Things
-category: posts
 ---
 
 I've been playing around with [Smart Things](http://smartthings.com/) and wrote a few small applications for it. These are pretty specific to my needs (and my house), but demonstrate how easy it is to write custom applications for the platform.

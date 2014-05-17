@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Using BitTorrent Sync, GPG and Linode for secure messaging and storage
-category: posts
 ---
 
 There has been a lot of discussion lately on the state of privacy. I'm not going to comment on whether or not people who assumed that there was some notion of privacy and security between ISPs were right or wrong; I can only look at what has been made very clear and proven.

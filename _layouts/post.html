@@ -1,26 +1,9 @@
 ---
-layout: layout
+layout: default
 ---
 
-<section class="content">
-  <h1>
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  </h1>
-  <section class="byline">
-    {{ page.date | date: "%B %e, %Y" }}
-  </section>
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-  <section class="meta">
-    <h3>Discussion, links, and tweets</h3>
-    <section class="copy">
-      <a href="https://twitter.com/ngerakines">
-        <img src="http://gravatar.com/avatar/0764d8fb09760f0bec8800b15f284274?s=142" height="50" width="50" />
-      </a>
-
-      <p>
-        I'm a developer at Hightail. Follow me on <a href="https://twitter.com/ngerakines">Twitter</a> or
-        <a href="https://plus.google.com/%2BNickGerakines">Google+</a>.
-      </p>
-    </section>
-  </section>
-</section>
+</div>

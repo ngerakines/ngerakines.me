@@ -1,6 +1,23 @@
-markdown: rdiscount
-pygments: true
-permalink: /posts/:title
-exclude: ['readme.markdown', 'LICENSE', '.gitignore', '.git', 's3.sh']
-rdiscount:
-  extensions: [smart]
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            '.me'
+tagline:          'Personal website for Nick Gerakines'
+description:      'Personal website for <a href="https://twitter.com/ngerakines" target="_blank">@ngerakines</a>.'
+url:              http://ngerakines.me/
+
+author:
+  name:           'Nick Gerakines'
+  url:            http://ngerakines.me/
+
+paginate:         5
+
+exclude:          ['.gitignore', 'LICENSE', 'README.md', 's3.sh']
+
+github:
+  repo:           https://github.com/ngerakines/ngerakines.me

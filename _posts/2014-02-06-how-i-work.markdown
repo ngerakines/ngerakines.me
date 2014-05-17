@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How I Work
-category: posts
 ---
 
 I love reading the [how-i-work](http://lifehacker.com/how-i-work/) posts on life hacker. They aren't the first to do that sort of series, but I love the mix of writers, industry leaders, software engineers and designers that contribute to it. With that, this is my contribution.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Arch Linux
-category: posts
 ---
 
 I switched over to Arch from Ubuntu and love it. Being a fan of Gentoo (and Slackware back in the day), I really appreciate the minimialistic nature of the OS and the powerfull package management system, pacman.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Do One Thing
-category: posts
 ---
 
 In [Clean Code by Robert C. Martin][1], one of the messages that is repeated again and again is that classes and methods should do one thing and one thing only. Some of you may know this as the Single Responsibility Principle which was first used by the same author in the book Agile Software Development. Others may recognize this from the informal name bestowed by Coding Horror as "Curly's Law".

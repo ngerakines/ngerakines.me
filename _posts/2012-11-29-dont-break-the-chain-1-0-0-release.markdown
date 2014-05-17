@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Don't Break The Chain 1.0.0 Release
-category: posts
 ---
 My first Windows 8 Store App is out!
 

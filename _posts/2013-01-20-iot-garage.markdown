@@ -1,7 +1,6 @@
 ---
 layout: post
 title: IOT Garage
-category: posts
 ---
 
 I started getting back into hardware hacking when I first heard about the Arduino. Since then, I've made a started and finished a few projects, one of which is a small device used in the garage. This device is used to help park our van using a motion sensor, distance sensor and some leds.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My style doesn't matter
-category: posts
 ---
 
 It's official, I'm no longer with Blizzard and started with the company YouSendIt. I'm really excited to be working with the FoundApp team doing some very awesome things that I'm sure that I'll be able to talk about soon (tm). Until then, I've just got the one takeaway: my coding style doesn't matter.

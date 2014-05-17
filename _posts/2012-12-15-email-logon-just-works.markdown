@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Email logon just works
-category: posts
 ---
 
 Recently I wrote a small (or not soo small) web application that used email instead of usernames/passwords as the method of authenticating and verifying users. I think email is an underutilized tool and often gets overlooked by web developers. This is why email basic logon just works.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Raspberry Pi
-category: posts
 ---
 
 My first [Raspberry Pi](http://www.raspberrypi.org/) arrived and I'm itching to make something with it. The only thing is, I'm not exactly sure what to make. Here are a few things ideas that I've been kicking around.

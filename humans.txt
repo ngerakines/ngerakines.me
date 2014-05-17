@@ -7,4 +7,4 @@
 /* SITE */
 	Language: English
 	IDE: Sublime Text, vim
-	Built With: Jekyll, Bootstrap
+	Built With: Jekyll, Hyde

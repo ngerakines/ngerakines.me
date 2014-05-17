@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Amazon, you've got competition
-category: posts
 ---
 
 *tl;dr I'm using a Chromecast and the Google Play store to purchase and rent movies instead of Amazon Prime Instant Video. This is a change from what I've been doing and unless Amazon makes it easier, faster or cheaper, they'll probably continue to loose business from me.*

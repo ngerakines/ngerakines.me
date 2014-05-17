@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Formatting and Code Organization
-category: posts
 ---
 
 Formatting and organization have been discussed and debated to great lengths because of one simple fact: it is incredibly important. How code is formatted and organized has a huge impact on how easy it is to comprehend and change. Here we will be discussing some of the readability and class organization aspects of formatting and code organization.
