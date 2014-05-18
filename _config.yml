@@ -9,7 +9,7 @@ permalink:        pretty
 title:            '.me'
 tagline:          'Personal website for Nick Gerakines'
 description:      'Personal website for <a href="https://twitter.com/ngerakines" target="_blank">@ngerakines</a>.'
-url:              http://ngerakines.me/
+url:              http://ngerakines.me
 
 author:
   name:           'Nick Gerakines'
@@ -21,3 +21,9 @@ exclude:          ['.gitignore', 'LICENSE', 'README.md', 's3.sh']
 
 github:
   repo:           https://github.com/ngerakines/ngerakines.me
+
+sitemap:
+  lastmod: 2014-01-23
+  priority: 0.7
+  changefreq: monthly
+  exclude: 'yes'

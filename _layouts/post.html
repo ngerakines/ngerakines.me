@@ -2,8 +2,11 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+<div class="post" itemscope itemType="http://schema.org/BlogPosting">
+  <meta itemprop="inLanguage" content="en-US"/>
+  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+  <span class="post-date" itemprop="datePublished">{{ page.date | date_to_string }}</span>
+  <div itemprop="articleBody">
   {{ content }}
+  </div>
 </div>

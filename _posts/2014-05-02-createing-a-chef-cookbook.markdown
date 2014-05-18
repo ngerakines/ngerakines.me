@@ -4,9 +4,9 @@ title: Creating a Chef Cookbook
 ---
 
 
-In May, I wrote a cookbook for the [s3ninja](https://github.com/scireum/s3ninja) project and wanted to share the how I go about writing application cookbooks. This cookbook is primarily used to test another project that I'm working on, [tram](https://github.com/ngerakines/tram). In the tram cookbook, I include this cookbook for use in the cookbook integration tests, so this is an interesting use case for an application that can stand on it's own as well as be included in an application stack if needed.
+In May, I wrote a cookbook for the [s3ninja](https://github.com/scireum/s3ninja) project and wanted to share how I go about writing application cookbooks. This cookbook is primarily used to test another project that I'm working on, [tram](https://github.com/ngerakines/tram). In the tram cookbook, I include this cookbook for use in the cookbook integration tests, so this is an interesting use case for an application that can stand on its own as well as be included in an application stack.
 
-# Step 1: What are we creating here?
+## Step 1: What are we creating here?
 
 There are a few things that I wanted to get out of this:
 
@@ -17,9 +17,9 @@ There are a few things that I wanted to get out of this:
 
 My local cookbook development environment is pretty simple. I've got Ruby 1.9.3 installed through RVM as well as the chef, berkshelf, foodcritic, test-kitchen, rspec and chefspec gems. I'm also using a somewhat recent version of VirtualBox.
 
-For this project, chef and berkshelf are required for general cookbook development and testing. Foodcritic is used as a sanity checking tool to make sure my cookbooks don't contain anything that is too far from the generally accepted development patterns used by the community. For unit testing I'll be using chefspec and for integration testing I'll be using test-kitchen and serverspec to create test suites that can be executed against different OS configurations.
+For this project, chef and berkshelf are required for general cookbook development and testing. Foodcritic is used as a sanity checking tool to make sure my cookbooks don't contain anything that is too far from the generally accepted development patterns used by the community. For unit testing I'll be using chefspec. For integration testing I'll be using test-kitchen and serverspec to create test suites that can be executed against different OS configurations.
 
-# Step 2: Creating the cookbook
+## Step 2: Creating the cookbook
 
 With the development environment configured and ready, I started by creating a new cookbook using berkshelf:
 
@@ -52,7 +52,7 @@ supports 'ubuntu', '>= 12.04'
 
 In the above `metadata.rb` file, you can see what the cookbook name is, who maintains it, the version and then what cookbooks it depends on and what operating systems it supports. This file is important because it is used to define and describe the cookbook.
 
-In the `attributes/default.rb` file, I'm going to list all attributes specific to the cookbook and application. In this cookbook we just have one so far, the source location of the s3ninja package.
+In the `attributes/default.rb` file, I'm going to list all attributes specific to the cookbook and application. In this cookbook we just have one so far: the source location of the s3ninja package.
 
 ```ruby
 default[:s3ninja][:package_source] = "https://github.com/ngerakines/s3ninja/releases/download/latest/s3ninja.zip"
@@ -94,7 +94,7 @@ include_recipe 'java::default'
 
 In this case, we include the apt, yum and java default recipes. Before the `java::default` recipe is included, we want to ensure that Java 7 is installed because the s3ninja application package is compiled against it. Even though this recipe is going to be running against both Centos and Ubuntu environments, we are including both the apt and yum default recipes. We rely on them to intelligently exclude themselves from running if the node doesn't support them.
 
-Next we want to create the s3ninja user, group and prepare the directories that house the unpacked application.
+Next we want to create the s3ninja user and prepare the directories that house the unpacked application.
 
 ```ruby
 user 's3ninja' do
@@ -157,9 +157,9 @@ service 's3ninja' do
 end
 ```
 
-# Step 3: Unit tests with ChefSpec
+## Step 3: Unit tests with ChefSpec
 
-Chefspec is a set of rpsec extensions that let cookbook authors quickly test that their cookbook is doing everything as expected. It also has the ability to show you what parts of your cookbook aren't covered with tests.
+Chefspec is a set of rpsec extensions that let cookbook authors quickly test that their cookbooks are doing everything as expected.
 
 The chefspec test files reside in the `spec/recipes` directory within the cookbook project and have a file suffix of `_spec.rb`. What I like to do is have one test file for each recipe in the cookbook.
 
@@ -279,7 +279,7 @@ ChefSpec Coverage report generated...
 You are awesome and so is your test coverage! Have a fantastic day!
 ```
 
-# Step 4: Integration tests with ServerSpec
+## Step 4: Integration tests with ServerSpec
 
 Even though this cookbook is going to be used as a component of another cookbook's tests, I still need to make sure that everything is setup and working properly. With test-kitchen, we can configure different operating systems (platforms) and test suites and it will execute each permutation.
 
