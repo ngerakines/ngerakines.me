@@ -7,7 +7,7 @@ This is a follow up to the blog post [Creating A Chef Cookbook](http://ngerakine
 
 ## Embed Application Cookbooks in Application Repositories
 
-Instead of having a separate git repository for each cookbook, all of the cookbooks for the preview application are in the [preview](https://github.com/ngerakines/preview) git repository in the 'cookbooks' directory. 
+Instead of having a separate git repository for each cookbook, all of the cookbooks for the preview application are in the *preview* git repository in the 'cookbooks' directory. 
 
 Practically, this doesn't change anything for the cookbook itself. In projects that reference this cookbook that use berkshelf, I have to update the Berksfile to point to the project repository and the subdirectory that contains the cookbook. When a cookbook is uploaded to a chef server, the location is irrelevant.
 
@@ -21,7 +21,7 @@ In addition to the primary "preview" application cookbook, I created an environm
 
 When looking at environment cookbooks, it is really important to note that these don't contain node information and attributes, but rather represent what a configuration of the application cookbook looks like in a given environment.
 
-In the case of the "preview_prod" cookbook, in the metadata.rb file, I list several attributes that are required by the cookbook:
+In the case of the `preview_prod/metadata.rb` file, I list several attributes that are required by the cookbook:
 
 ```ruby
 name             'preview_prod'
@@ -35,6 +35,9 @@ version          '0.2.2'
 depends 'preview'
 
 supports 'centos'
+
+recipe 'preview_prod::node', 'Configures and prepares a preview application node.'
+recipe 'preview_prod::storage', 'Configures and prepares a storage node.'
 
 attribute 'preview_prod/node_id',
   :display_name => 'The id of the preview node.',
@@ -78,6 +81,8 @@ attribute 'preview_prod/s3Buckets',
   :type => 'array',
   :recipes => ['preview_prod::node']
 ```
+
+Even though the `preview_prod::node` and `preview_prod::storage` recipes describe how to create production-like preview cluster nodes separately, the `preview_pod::default` exists to allow engineers to deploy to a single, full-stack node. This follows the idea that the default recipe's purpose should be to represent the most common and simple use for engineers that are new to the cookbook.
 
 In the `preview_prod::node` recipe, we are using the preview_prod required and unsatisfied attributes to override attributes that have default values in the `preview` cookbook:
 
@@ -133,4 +138,4 @@ Practically, it makes sense to use something like [gopm](https://github.com/gpmg
 
 ## Application Integration Test Cookbook
 
-For this project, I took it one step further and created an additional cookbook called preview_test that contains recipes, configuration and files to run integration tests. This cookbook is still heavily in development as I'm using it to learn how to effectively use [chef-metal](https://github.com/opscode/chef-metal) [kitchen-metal](https://github.com/doubt72/kitchen-metal). I'll put up another blog post when I've got something demonstrable.
+For this project, I took it one step further and created an additional cookbook called preview_test that contains recipes, configuration and files to run integration tests. This cookbook is still heavily in development as I'm using it to learn how to effectively use [chef-metal](https://github.com/opscode/chef-metal) and [kitchen-metal](https://github.com/doubt72/kitchen-metal). I'll put up another blog post when I've got something demonstrable.
