@@ -1,7 +1,7 @@
-# ---
-# layout: post
-# title: Chef Application Cookbooks
-# ---
+---
+layout: post
+title: Chef Application Cookbooks
+---
 
 This is a follow up to the blog post [Creating A Chef Cookbook](http://ngerakines.me/2014/05/02/createing-a-chef-cookbook/). Since writing that blog post, I created the [preview](https://github.com/ngerakines/preview) project and several cookbooks for it. With it, I've done a few things differently and believe that they represent some notable trends in the chef community.
 
