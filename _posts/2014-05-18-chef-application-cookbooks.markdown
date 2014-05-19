@@ -82,7 +82,7 @@ attribute 'preview_prod/s3Buckets',
   :recipes => ['preview_prod::node']
 ```
 
-Even though the `preview_prod::node` and `preview_prod::storage` recipes describe how to create production-like preview cluster nodes separately, the `preview_pod::default` exists to allow engineers to deploy to a single, full-stack node. This follows the idea that the default recipe's purpose should be to represent the most common and simple use for engineers that are new to the cookbook.
+Even though the `preview_prod::node` and `preview_prod::storage` recipes describe how to create production-like preview cluster nodes separately, the `preview_prod::default` exists to allow engineers to deploy to a single, full-stack node. This follows the idea that the default recipe's purpose should be to represent the most common and simple use for engineers that are new to the cookbook.
 
 In the `preview_prod::node` recipe, we are using the preview_prod required and unsatisfied attributes to override attributes that have default values in the `preview` cookbook:
 
