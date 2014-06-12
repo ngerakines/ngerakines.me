@@ -5,7 +5,7 @@ title: Secure Email On OSX
 
 There are a few really good articles out there on how to send and
 receive secure email using Thunderbird and GPG. This small guide will
-show you how you can use Mail.app along with GPG Tools for the same
+show you how you can use Mail app along with GPG Tools for the same
 result.
 
 ## Install GPG Tools
@@ -32,10 +32,10 @@ manager and a plugin for Mail.
 
 Next you'll want to create a key. Open the newly installed "GPG Keychain
 Access" application and click the "New" button to create a key. You'll
-br prompted for your full name and email address, which you should fill
+be prompted for your full name and email address, which you should fill
 in. Be sure to also check the box to have the public key uploaded once
 generated.  Having accurate information is vital and if this is your first time
-going through this process, I strongly recommend setting the `comment`
+going through this process. I strongly recommend setting the `comment`
 to your website or twitter under the advanced options.
 
 Next, you'll be prompted to set a password for your key. **Choose a strong
@@ -47,14 +47,14 @@ key to be generated after your password is accepted. Don't be alarmed.
 There shouldn't be anything extra needed to send and receive encrypted
 and or signed email through the Mail app now. In the Mail app
 preferences is a "GPGMail" section that should indicate that GPGMail is
-ready for use. I have it set to encrypt/sign drafts and sign all new
+ready for use. It is set to encrypt/sign drafts and sign all new
 messages by default.
 
 ## Test Sending Signed Mail
 
 From Mail, create a new message to send to a loved one, friend, coworker
-or the like. Once you fill in the To, Subject and Body ensure that the
-message is "Signed" by clicking the checkmark box button within the new
+or the like. Once you fill in the To, Subject, and Body, ensure that the
+message is signed by clicking the checkmark box button within the new
 mail window. If you have Mail configured to sign by default, you may be
 prompted within a few seconds to give the password for the key.
 
