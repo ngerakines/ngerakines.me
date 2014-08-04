@@ -50,7 +50,7 @@ all:
 	go build -ldflags "-X main.githash `git rev-parse --short HEAD`"
 ```
 
-If the `go build` command is used, then the version given to docopt is just 1.0.0, but if the main.githash is set as it is in the Makefile, then the version is something like "1.0.0+b74276b" is used.
+If the `go build` command is used, then the version given to docopt is just 1.0.0, but if the main.githash is set as it is in the Makefile, then the version ends up being something like "1.0.0+b74276b".
 
     $ ./awesome --version
     1.0.0+b74276b
