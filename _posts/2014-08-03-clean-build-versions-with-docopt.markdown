@@ -71,5 +71,5 @@ Using awk to update the version would look like this:
     package main
 
     var (
-    	AWESOME_VERSION = "1.0.0"
+    	AWESOME_VERSION = "2.0.0"
     )
