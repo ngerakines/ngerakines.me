@@ -7,7 +7,7 @@ title: About
 &#8220;Nick Gerakines (born Baton Rouge 1983) is an American author, speaker and software engineer. He is a contributor to a number of notable open source Erlang projects on GitHub and is the author of the book Facebook Application Development.&#8221; &#8212; <a href="http://en.wikipedia.org/wiki/Nick_Gerakines">Wikipedia</a></p>
  </blockquote>
 
-I'm a software engineer, author, maker and dad in Ohio. I currently work at [Hightail](https://www.hightail.com/) and have previously worked at technology and gaming companies including Blizzard Entertainment, Electronic Arts and Yahoo.
+I'm a software engineer, author, maker and dad in Ohio. I currently work at [McKissock](https://www.mckissock.com/) and have previously worked at technology and gaming companies including Blizzard Entertainment, Electronic Arts and Yahoo.
 
 To get a better feel for what I'm into, follow me on <a href="http://twitter.com/ngerakines">Twitter</a> and <a href="http://github.com/ngerakines">GitHub</a>.
 
