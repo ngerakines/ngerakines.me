@@ -2,6 +2,8 @@
 markdown:         redcarpet
 highlighter:      pygments
 
+gems: [jekyll-paginate]
+
 # Permalinks
 permalink:        pretty
 
@@ -23,7 +25,7 @@ github:
   repo:           https://github.com/ngerakines/ngerakines.me
 
 sitemap:
-  lastmod: 2014-01-23
+  lastmod: 2016-03-22
   priority: 0.7
   changefreq: monthly
   exclude: 'yes'

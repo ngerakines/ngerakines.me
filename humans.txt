@@ -6,5 +6,5 @@
 
 /* SITE */
 	Language: English
-	IDE: Sublime Text, vim
+	IDE: atom
 	Built With: Jekyll, Hyde
