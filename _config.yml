@@ -25,7 +25,7 @@ github:
   repo:           https://github.com/ngerakines/ngerakines.me
 
 sitemap:
-  lastmod: 2016-03-22
+  lastmod: 2016-05-02
   priority: 0.7
   changefreq: monthly
   exclude: 'yes'
