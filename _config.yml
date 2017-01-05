@@ -19,6 +19,7 @@ author:
 
 paginate:         5
 
+include: [".well-known"]
 exclude:          ['.gitignore', 'LICENSE', 'README.md', 's3.sh']
 
 github:
