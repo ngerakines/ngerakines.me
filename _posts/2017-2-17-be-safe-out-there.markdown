@@ -71,3 +71,6 @@ First, think about what is necessary to bring and leave everything else at home.
 
 If you do need to bring your phone, secure it with a password, not a quick entry pin or sequence. Also remove any fingerprint login features if they are enabled.
 
+# Getting started
+
+It starts with you. Encourage your coworkers, friends, and family to use Signal (or WhatsApp). If someone sends you revealing or sensitive information in an insecure way, respectfully tell them to stop.
