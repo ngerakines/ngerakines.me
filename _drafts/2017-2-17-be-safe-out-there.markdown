@@ -8,7 +8,7 @@ There is a lot going on these days, and much of it has to do with your safety, s
 
 ## Use social media, but don't trust social media
 
-Facebook, Twitter, etc have one purpose: to monitise your relationships. Never forget that. The "values" and "purpose" that social media sites utter are banal platitudes that have no value in the age of fake news.
+Facebook, Twitter, etc have one purpose: to monetize your relationships. Never forget that. The "values" and "purpose" that social media sites utter are banal platitudes that have no value in the age of fake news.
 
 You should avoid, at all costs, using social media websites for sharing and communicating sensitive information.
 
