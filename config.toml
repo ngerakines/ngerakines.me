@@ -1,0 +1,56 @@
+baseURL = "http://ngerakines.me"
+languageCode = "en-us"
+title = ".me"
+theme = "hyde-x"
+enableRobotsTXT = true
+
+[author]
+    name = "Nick Gerakines"
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/:year/:month/:day/:slug/"
+    # post = "/:year/:month/:day/:title/"
+
+[[menu.main]]
+    name = "About"
+    weight = -52
+    url = "/about/"
+
+[[menu.main]]
+    name = "Archives"
+    weight = -51
+    url = "/archives/"
+
+[[menu.main]]
+    name = "Now"
+    weight = -50
+    url = "/now/"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read on' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = true
+
+    # Used when a given page doesn't set its own.
+    defaultDescription = "Personal website for Nick Gerakines"
+    defaultKeywords = "blog,software,devops,technology,personal,gerakines"
+
+    hideReadingTime = true
+
+    tagline = "Personal website for Nick Gerakines"
+
+    home = "Home"
+    name = ".me"
+
+    github = "https://github.com/ngerakines"
+    linkedin = "https://www.linkedin.com/in/ngerakines/"
+    facebook = "http://facebook.com/ngerakines"
+    twitter = "https://twitter.com/ngerakines"
+
+    rss = true
