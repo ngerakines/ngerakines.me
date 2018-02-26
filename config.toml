@@ -1,4 +1,4 @@
-baseURL = "http://ngerakines.me"
+baseURL = "https://ngerakines.me"
 languageCode = "en-us"
 title = ".me"
 theme = "hyde-x"
