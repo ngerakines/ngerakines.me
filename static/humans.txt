@@ -7,4 +7,4 @@
 /* SITE */
 	Language: English
 	IDE: atom
-	Built With: Jekyll, Hyde
+	Built With: Hugo, Hyde-X

@@ -4,6 +4,8 @@ title = ".me"
 theme = "hyde-x"
 enableRobotsTXT = true
 
+static = ["static"]
+
 [author]
     name = "Nick Gerakines"
 
