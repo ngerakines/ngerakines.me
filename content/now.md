@@ -5,11 +5,9 @@ title: Now
 
 This is what I'm currently busy with:
 
-* Being Director of Engineering at Mattel
 * Writing a lot of Golang
-* Wrote a book about Docker, AWS, and Terraform
-* Reading books to learn how to better myself and the world around me
-* Rowing, biking, and occasionally weightlifting
-* Swing dancing
+* Swing dancing, cooking, and photography
+* Quality family time
+* Giving my dog a lot of attention
 
-Last updated on February 26, 2017.
+Last updated on November 27, 2019.
