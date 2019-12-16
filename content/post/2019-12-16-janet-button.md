@@ -8,6 +8,8 @@ resources:
 
 The Good Place is almost over, but the fun isn't. For Halloween this year, we dressed up as Jason and Janet for our Halloween party and thought it'd be fun to make a Janet Button. If you don't know what that is, it is the magical reset button that is used to reboot Janet. In the show, as you approach the button, Janet begs for you to not reset her in all of the hilarious and imaginative ways that you would expect.
 
+{{< youtube "-vDjRRb9srM" >}}
+
 ![assembled board](https://ngerakines.me/images/3M9A6680_thumbnail.JPG)
 ![assembled board expanded](https://ngerakines.me/images/3M9A6681_thumbnail.JPG)
 ![assembled housing wires](https://ngerakines.me/images/3M9A6685_thumbnail.JPG)
