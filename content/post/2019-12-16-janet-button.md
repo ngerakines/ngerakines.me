@@ -1,11 +1,17 @@
 ---
 title: "Making a Janet Button"
 date: 2019-12-16T11:15:21-05:00
+resources:
+- name: 3m9a6680
+  src: ../images/3M9A6680.jpg
 ---
 
 The Good Place is almost over, but the fun isn't. For Halloween this year, we dressed up as Jason and Janet for our Halloween party and thought it'd be fun to make a Janet Button. If you don't know what that is, it is the magical reset button that is used to reboot Janet. In the show, as you approach the button, Janet begs for you to not reset her in all of the hilarious and imaginative ways that you would expect.
 
-{{< youtube etJ6RmMPGko >}}
+{{ with .Resources.ByType "image" }}
+{{ $image := $resource.Resize "x400" }}
+![]({{ $image.RelPermalink }})
+{{ end }}
 
 Back on earth, the Janet Button is a large red button way to detect if someone is within range of the button and a component that plays audio clips.
 
@@ -44,3 +50,5 @@ If you add more tracks, be sure to update the tracks variable so they are added 
 The Adafruit "Music Maker" shield was perfect for this project. I used the Windows 10 Voice Recorder program to record my clips and then loaded them onto the SD card. The program is one big event and state machine to track the range of the person and status of the button press.
 
 The source code for the project can be found on github: https://github.com/ngerakines/janet-button
+
+{{< youtube etJ6RmMPGko >}}
