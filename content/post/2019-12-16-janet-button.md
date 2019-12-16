@@ -5,7 +5,7 @@ date: 2019-12-16T11:15:21-05:00
 
 The Good Place is almost over, but the fun isn't. For Halloween this year, we dressed up as Jason and Janet for our Halloween party and thought it'd be fun to make a Janet Button. If you don't know what that is, it is the magical reset button that is used to reboot Janet. In the show, as you approach the button, Janet begs for you to not reset her in all of the hilarious and imaginative ways that you would expect.
 
-{{< youtube 6vo4Fdf7E0w >}}
+{{< youtube etJ6RmMPGko >}}
 
 Back on earth, the Janet Button is a large red button way to detect if someone is within range of the button and a component that plays audio clips.
 
@@ -31,6 +31,15 @@ Lastly, I drilled two small holes in the back for the power and audio cables.
 Assembled board and housing pictures: https://photos.app.goo.gl/CMKYWSyM9qPxpH8Y6
 
 The experience that I went for was to have a small pool of short (under 3 second) audio clips that are played at random as someone approaches the button. Then, when the button is activated, play an alert clip several times before resetting.
+
+* boot.mp3 - "Everything is fine"
+* track1.mp3 - "No no no!"
+* track2.mp3 - "Please don't hurt me!"
+* track3.mp3 - "No no, please please, I don't want to die!"
+* track4.mp3 - "No no no, please wait, I have kids."
+* killed.mp3 - "Attention. I have been murdered."
+
+If you add more tracks, be sure to update the tracks variable so they are added to the pool of randomly selected tracks.
 
 The Adafruit "Music Maker" shield was perfect for this project. I used the Windows 10 Voice Recorder program to record my clips and then loaded them onto the SD card. The program is one big event and state machine to track the range of the person and status of the button press.
 
