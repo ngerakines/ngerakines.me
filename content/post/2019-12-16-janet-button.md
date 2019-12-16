@@ -10,8 +10,8 @@ The Good Place is almost over, but the fun isn't. For Halloween this year, we dr
 
 ![assembled board](https://ngerakines.me/images/3M9A6680_thumbnail.JPG)
 ![assembled board expanded](https://ngerakines.me/images/3M9A6681_thumbnail.JPG)
-![assembled housing back](https://ngerakines.me/images/3M9A6685_thumbnail.JPG)
-![assembled housing](https://ngerakines.me/images/3M9A6686_thumbnail.JPG)
+<img src="https://ngerakines.me/images/3M9A6685_thumbnail.JPG" style="transform: rotate(270deg);">
+<img src="https://ngerakines.me/images/3M9A6686_thumbnail.JPG" style="transform: rotate(270deg);">
 
 Back on earth, the Janet Button is a large red button way to detect if someone is within range of the button and a component that plays audio clips.
 
