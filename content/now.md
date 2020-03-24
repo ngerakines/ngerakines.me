@@ -5,9 +5,9 @@ title: Now
 
 This is what I'm currently busy with:
 
-* Writing a lot of Golang
+* Writing a lot of Golang: https://www.sslhound.com/ and https://tavern.town/
 * Swing dancing, cooking, and photography
-* Quality family time
-* Giving my dog a lot of attention
+* Quality family time. Mostly because of COVID-19.
+* Giving my dog a lot of attention. Also thanks to COVID-19.
 
-Last updated on November 27, 2019.
+Last updated on March 24, 2020.
