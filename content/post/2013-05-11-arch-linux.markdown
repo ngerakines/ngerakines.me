@@ -4,7 +4,7 @@ title: Arch Linux
 date: 2013-05-11T09:00:00-00:00
 ---
 
-I switched over to Arch from Ubuntu and love it. Being a fan of Gentoo (and Slackware back in the day), I really appreciate the minimialistic nature of the OS and the powerfull package management system, pacman.
+I switched over to Arch from Ubuntu and love it. Being a fan of Gentoo (and Slackware back in the day), I really appreciate the minimalistic nature of the OS and the powerfull package management system, pacman.
 
 * The base install was pretty quick, but I had to do some extra research to get wifi working during the install process. The documentation was kinda thin there.
 * I installed only what I immediately use and the base install is pretty light and fast. Boot up is extremely fast.
