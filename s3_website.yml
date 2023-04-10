@@ -1,5 +1,0 @@
-s3_id: <%= ENV['S3_ID'] %>
-s3_secret: <%= ENV['S3_SECRET'] %>
-s3_bucket: ngerakines.me
-cloudfront_distribution_id: E3P19SB1FPA6OA
-cloudfront_wildcard_invalidation: true
